@@ -5,10 +5,10 @@ const Input = ( { addHandler, handleClick  } ) => {
         <div>
             <input 
             onChange={addHandler}
-        placeholder="what do you need"
+        placeholder="Enter To Do's Here!"
         name="input" 
         type="text" />
-            <button onClick={handleClick}>Submit</button>
+            <button onClick={handleClick}>Add</button>
             
     
         </div>
